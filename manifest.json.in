@@ -1,0 +1,17 @@
+{
+    "name": "@APP_ID@",
+    "description": "description of ongaku",
+    "architecture": "@CLICK_ARCH@",
+    "title": "@APP_NAME@",
+    "hooks": {
+        "ongaku": {
+            "apparmor": "ongaku.apparmor",
+            "desktop":  "ongaku.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Steeve Vandecappelle <me@mizore.fr>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
